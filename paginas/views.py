@@ -6,3 +6,6 @@ from django.views.generic import TemplateView
 # Vistas basadas en clase, la clase TemplateView ya contiene la lógica para renderizar una plantilla
 class VistaInicio(TemplateView):
     template_name = 'inicio.html'
+
+class VistaAbout(TemplateView):
+    template_name = 'about.html'
